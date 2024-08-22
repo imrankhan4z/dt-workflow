@@ -74,7 +74,7 @@ WHERE storage:dt.host_group.id IN ("${bindParam:hg-name}");`
 > Note: This workflow can generate 1 group at a time. Multiple group creation will be supported in future. No promises though.
 
 
-###Useful Links:
+### Useful Links:
 
 https://docs.dynatrace.com/docs/shortlink/assign-bucket-table-permissions#grail-permissions-record
 
