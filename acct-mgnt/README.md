@@ -75,5 +75,7 @@ WHERE storage:dt.host_group.id IN ("${bindParam:hg-name}");`
 
 
 ###Useful Links:
+
 https://docs.dynatrace.com/docs/shortlink/assign-bucket-table-permissions#grail-permissions-record
+
 https://docs.dynatrace.com/docs/manage/identity-access-management/permission-management/manage-user-permissions-policies/advanced/iam-policy-templating
