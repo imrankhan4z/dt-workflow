@@ -71,4 +71,9 @@ WHERE storage:dt.host_group.id IN ("${bindParam:hg-name}");`
 5. Open "env_var" action and change <REPLACE-PLACEHOLDER> with your account id, client id, secrect's credential vault id and other necessary fileds details
 6. Run your workflow.
 
-> Note: This workflow can generate 1 group at a time. Multiple group creation will be supported in future. No promises though. 
+> Note: This workflow can generate 1 group at a time. Multiple group creation will be supported in future. No promises though.
+
+
+###Useful Links:
+https://docs.dynatrace.com/docs/shortlink/assign-bucket-table-permissions#grail-permissions-record
+https://docs.dynatrace.com/docs/manage/identity-access-management/permission-management/manage-user-permissions-policies/advanced/iam-policy-templating
